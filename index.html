@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resonancia | Plataforma Integral para Artistas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="navbar">
+      <div class="logo">Resonancia</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#finanzas">Panel contable</a></li>
+        <li><a href="#oyentes">Análisis de oyentes</a></li>
+        <li><a href="#medios">Música y videos</a></li>
+        <li><a href="#fandom">Fandom & Merch</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button class="btn btn-outline" id="theme-toggle" aria-label="Alternar modo oscuro">🌙</button>
+    </nav>
+    <div class="hero-content">
+      <h1>La plataforma todo-en-uno para artistas que quieren crecer sin límites</h1>
+      <p>
+        Controla tus finanzas, entiende a tu audiencia, optimiza tus lanzamientos y activa a tu comunidad desde un único panel inteligente inspirado en agencias líderes como Wasserman.
+      </p>
+      <div class="hero-actions">
+        <a href="#demo" class="btn btn-primary">Solicitar demo</a>
+        <a href="#contacto" class="btn btn-secondary">Hablar con ventas</a>
+      </div>
+      <div class="hero-metrics">
+        <article>
+          <span class="metric-label">Ingresos gestionados</span>
+          <span class="metric-value">$18.5M</span>
+          <small>en los últimos 12 meses</small>
+        </article>
+        <article>
+          <span class="metric-label">Crecimiento de oyentes</span>
+          <span class="metric-value">+42%</span>
+          <small>promedio por campaña</small>
+        </article>
+        <article>
+          <span class="metric-label">Tasa de conversión Merch</span>
+          <span class="metric-value">3.8x</span>
+          <small>vs. tienda tradicional</small>
+        </article>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="demo">
+      <div class="section-heading">
+        <h2>Tu oficina creativa, optimizada</h2>
+        <p>
+          Cada módulo se integra con tus fuentes de datos favoritas (Spotify, YouTube, TikTok, Shopify, Stripe y más) para que puedas tomar decisiones informadas en tiempo real.
+        </p>
+      </div>
+      <div class="pill-grid">
+        <span>Gestión de giras</span>
+        <span>Forecasting de ingresos</span>
+        <span>Alertas inteligentes</span>
+        <span>Integración CRM</span>
+        <span>KPIs personalizables</span>
+        <span>Reportes automáticos</span>
+      </div>
+    </section>
+
+    <section class="section two-column" id="finanzas">
+      <div class="section-heading">
+        <h2>Panel contable en vivo</h2>
+        <p>
+          Visualiza flujo de caja, distribución de regalías y costos operativos sin esperar a los reportes del mes. Identifica oportunidades de ahorro y pronostica presupuestos en segundos.
+        </p>
+      </div>
+      <div class="dashboard-card">
+        <div class="card-header">
+          <h3>Resumen financiero</h3>
+          <div class="chip">Actualizado hace 5 min</div>
+        </div>
+        <div class="chart" aria-hidden="true">
+          <div class="bar" style="height: 80%"></div>
+          <div class="bar" style="height: 55%"></div>
+          <div class="bar" style="height: 92%"></div>
+          <div class="bar" style="height: 48%"></div>
+          <div class="bar" style="height: 67%"></div>
+        </div>
+        <div class="card-metrics">
+          <div>
+            <span class="metric-label">Royalties confirmados</span>
+            <span class="metric-value">$245K</span>
+          </div>
+          <div>
+            <span class="metric-label">Cashflow 90 días</span>
+            <span class="metric-value positivo">+$612K</span>
+          </div>
+          <div>
+            <span class="metric-label">Costos operativos</span>
+            <span class="metric-value">$58K</span>
+          </div>
+        </div>
+        <button class="btn btn-outline">Ver proyecciones</button>
+      </div>
+    </section>
+
+    <section class="section two-column reverse" id="oyentes">
+      <div class="dashboard-card">
+        <div class="card-header">
+          <h3>Mapa de oyentes activos</h3>
+          <div class="chip success">Campaña en curso</div>
+        </div>
+        <div class="map" role="img" aria-label="Mapa de calor de oyentes por región">
+          <div class="map-overlay"></div>
+        </div>
+        <div class="card-metrics split">
+          <div>
+            <span class="metric-label">Oyentes mensuales</span>
+            <span class="metric-value">4.2M</span>
+          </div>
+          <div>
+            <span class="metric-label">Retención 30 días</span>
+            <span class="metric-value positivo">87%</span>
+          </div>
+          <div>
+            <span class="metric-label">Nuevos seguidores</span>
+            <span class="metric-value">+62K</span>
+          </div>
+          <div>
+            <span class="metric-label">Playlists clave</span>
+            <span class="metric-value">34</span>
+          </div>
+        </div>
+        <div class="insights">
+          <h4>Insights accionables</h4>
+          <ul>
+            <li>Segmenta anuncios para Ciudad de México y Buenos Aires: +28% de engagement.</li>
+            <li>Optimiza publicaciones en TikTok los jueves 19:00h.</li>
+            <li>Colabora con creadores de lifestyle en Brasil para potenciar lanzamientos.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section-heading">
+        <h2>Análisis avanzado de oyentes</h2>
+        <p>
+          Monitoriza crecimiento por ciudad, hábitos de escucha y comportamiento social. Identifica a tus super fans y convierte datos en estrategias de marketing hiperpersonalizadas.
+        </p>
+      </div>
+    </section>
+
+    <section class="section two-column" id="medios">
+      <div class="section-heading">
+        <h2>Rendimiento de música y videos</h2>
+        <p>
+          Compara lanzamientos, detecta caídas en reproducciones y optimiza tus inversiones en contenido audiovisual. Todo con dashboards personalizables y alertas en tiempo real.
+        </p>
+      </div>
+      <div class="dashboard-card">
+        <div class="tab-controls" role="tablist" aria-label="Tipos de contenido">
+          <button class="tab active" role="tab" aria-selected="true" data-target="musica">Música</button>
+          <button class="tab" role="tab" aria-selected="false" data-target="videos">Videos</button>
+        </div>
+        <div class="tab-content" id="musica" role="tabpanel">
+          <table>
+            <thead>
+              <tr>
+                <th>Track</th>
+                <th>Streams</th>
+                <th>Guardados</th>
+                <th>Crecimiento semanal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Luz Eterna</td>
+                <td>12.4M</td>
+                <td>1.2M</td>
+                <td class="positivo">+8%</td>
+              </tr>
+              <tr>
+                <td>Horizonte</td>
+                <td>8.1M</td>
+                <td>875K</td>
+                <td class="negativo">-2%</td>
+              </tr>
+              <tr>
+                <td>Sinergia</td>
+                <td>5.4M</td>
+                <td>540K</td>
+                <td class="positivo">+11%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-content hidden" id="videos" role="tabpanel" aria-hidden="true">
+          <table>
+            <thead>
+              <tr>
+                <th>Video</th>
+                <th>Reproducciones</th>
+                <th>Retención media</th>
+                <th>CTR miniatura</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tour Diary #7</td>
+                <td>2.8M</td>
+                <td>64%</td>
+                <td class="positivo">+14%</td>
+              </tr>
+              <tr>
+                <td>Acústico en vivo</td>
+                <td>1.9M</td>
+                <td>71%</td>
+                <td class="positivo">+6%</td>
+              </tr>
+              <tr>
+                <td>Behind the scenes</td>
+                <td>1.2M</td>
+                <td>58%</td>
+                <td class="negativo">-4%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section two-column reverse" id="fandom">
+      <div class="dashboard-card">
+        <div class="card-header">
+          <h3>Marketplace de fandom</h3>
+          <div class="chip">Lanzamiento limitado</div>
+        </div>
+        <div class="product-grid">
+          <article>
+            <h4>Vinilo edición neon</h4>
+            <span class="tag">Restan 42</span>
+            <span class="price">$45</span>
+            <button class="btn btn-primary btn-small">Agregar al carrito</button>
+          </article>
+          <article>
+            <h4>Sudadera tour 2024</h4>
+            <span class="tag">Preventa</span>
+            <span class="price">$60</span>
+            <button class="btn btn-primary btn-small">Agregar al carrito</button>
+          </article>
+          <article>
+            <h4>Póster firmado</h4>
+            <span class="tag">Best seller</span>
+            <span class="price">$25</span>
+            <button class="btn btn-primary btn-small">Agregar al carrito</button>
+          </article>
+        </div>
+        <div class="card-metrics">
+          <div>
+            <span class="metric-label">Valor promedio pedido</span>
+            <span class="metric-value">$68</span>
+          </div>
+          <div>
+            <span class="metric-label">Conversión campaña</span>
+            <span class="metric-value positivo">5.2%</span>
+          </div>
+          <div>
+            <span class="metric-label">Miembros suscripción</span>
+            <span class="metric-value">3,480</span>
+          </div>
+        </div>
+      </div>
+      <div class="section-heading">
+        <h2>Convierte tu fandom en comunidad</h2>
+        <p>
+          Ofrece experiencias exclusivas, drops coordinados y contenido premium. Gestiona membresías, beneficios y envíos desde la misma plataforma que analiza tus campañas.
+        </p>
+        <ul class="feature-list">
+          <li>Configura tiendas locales con inventario inteligente.</li>
+          <li>Lanza NFTs o experiencias VIP sin fricción.</li>
+          <li>Activa programas de referidos con recompensas a medida.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="integraciones">
+      <div class="section-heading">
+        <h2>Integraciones estratégicas</h2>
+        <p>Conecta más de 40 herramientas para centralizar operaciones y creatividad.</p>
+      </div>
+      <div class="integration-grid">
+        <span>Spotify for Artists</span>
+        <span>Apple Music</span>
+        <span>YouTube Analytics</span>
+        <span>TikTok</span>
+        <span>Instagram Insights</span>
+        <span>Stripe</span>
+        <span>Shopify</span>
+        <span>Eventbrite</span>
+        <span>Mailchimp</span>
+        <span>Discord</span>
+        <span>Salesforce</span>
+        <span>Slack</span>
+      </div>
+    </section>
+
+    <section class="section" id="testimonios">
+      <div class="section-heading">
+        <h2>Historias de artistas</h2>
+        <p>Gestores, managers y bandas confían en Resonancia para tomar mejores decisiones.</p>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote>
+          <p>“Nuestro equipo ahora planifica giras y lanzamientos con datos claros. Ahorramos 12 horas semanales en reportes manuales.”</p>
+          <footer>— Carla Muñoz, Manager de Aurora Luna</footer>
+        </blockquote>
+        <blockquote>
+          <p>“Activamos drops de merch en cuestión de minutos y triplicamos el ticket promedio con experiencias VIP.”</p>
+          <footer>— Nico Santoro, Director de Fandom para Sur Records</footer>
+        </blockquote>
+        <blockquote>
+          <p>“La sincronización con Spotify y TikTok nos permitió detectar tendencias antes que la competencia.”</p>
+          <footer>— Gabriela Ríos, A&R en Prisma Music</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section cta" id="contacto">
+      <div class="cta-card">
+        <h2>¿Listo para amplificar tu impacto?</h2>
+        <p>Agenda una demo personalizada y descubre cómo Resonancia se adapta a tu roster de artistas.</p>
+        <form class="cta-form">
+          <div class="input-group">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="input-group">
+            <label for="email">Correo profesional</label>
+            <input type="email" id="email" name="email" placeholder="tu@empresa.com" required />
+          </div>
+          <div class="input-group">
+            <label for="rol">Rol</label>
+            <select id="rol" name="rol">
+              <option>Manager</option>
+              <option>Artista independiente</option>
+              <option>Label</option>
+              <option>Agencia</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="mensaje">¿Qué necesitas potenciar?</label>
+            <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos sobre tu próximo lanzamiento"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Agendar demo</button>
+        </form>
+      </div>
+      <aside class="cta-side">
+        <h3>Niveles de servicio</h3>
+        <ul>
+          <li><strong>Growth</strong>: Ideal para artistas emergentes que buscan su primer tour internacional.</li>
+          <li><strong>Pro</strong>: Gestores con múltiples artistas y equipos de marketing integrados.</li>
+          <li><strong>Enterprise</strong>: Sellos y agencias globales con operaciones multi-región.</li>
+        </ul>
+        <p class="note">Todos los planes incluyen soporte dedicado, onboarding y migración de datos.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="logo">Resonancia</span>
+      <p>Inteligencia creativa para la nueva generación de artistas.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#finanzas">Finanzas</a>
+      <a href="#oyentes">Audiencia</a>
+      <a href="#medios">Música & Videos</a>
+      <a href="#fandom">Fandom</a>
+      <a href="#integraciones">Integraciones</a>
+    </div>
+    <div class="footer-meta">
+      <span>© <span id="year"></span> Resonancia. Todos los derechos reservados.</span>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Términos de servicio</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
